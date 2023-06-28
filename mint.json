@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Krater",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#12A7D3",
-    "light": "#81D7F7",
-    "dark": "#004E7A"
+    "primary": "#2A2A65",
+    "light": "#7083ff",
+    "dark": "#7083ff"
   },
   "topbarLinks": [
     {
@@ -21,6 +21,23 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
+  "anchors": [
+    {
+        "name": "Krater For Mining",
+        "icon": "pickaxe",
+        "url": "krater-mining"
+    },
+    {
+        "name": "Krater For Hosting",
+        "icon": "warehouse",
+        "url": "krater-hosting"
+    },
+    {
+        "name": "Marketplace",
+        "icon": "store",
+        "url": "krater-marketplace"
+    }
+],
   "tabs": [
     {
       "name": "API Reference",
@@ -28,6 +45,23 @@
     }
   ],
   "navigation": [
+    {
+      "group": "Application",
+      "pages": 
+      [
+        {"group": "Dashboard", "pages": ["krater-hosting/dashboard/overview"]},
+        {"group": "Workers", "pages": ["krater-hosting/workers/add-workers"]},
+        "krater-hosting/locations",
+        "krater-hosting/customers",
+        {"group": "Krater Node", "pages": ["krater-hosting/krater-node/overview", "krater-hosting/krater-node/manage-krater-node"]},
+        "krater-hosting/financials",
+        "krater-hosting/energy-reports",
+        "krater-hosting/notifications",
+        "krater-hosting/curtailment",
+        "krater-hosting/sitemap",
+        "krater-hosting/settings"
+      ]
+    },
     {
       "group": "Get Started",
       "pages": ["introduction", "quickstart", "development"]

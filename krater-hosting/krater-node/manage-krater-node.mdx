@@ -1,0 +1,31 @@
+---
+sidebarTitle: "Manage Krater Node"
+title: "Manage Krater Node"
+---
+**Krater Node** is a program written in TS that serves as an interface between Krater’s backend and the Miners running inside a Data Center. Krater Node runs as a service managed by [PM2](http://pm2.io). The documentation for PM2 can be found [here](https://pm2.io/docs/runtime/overview/). 
+Krater Node’s installer is made in a way that the user should not need to manage PM2 themselves. Krater provides scripts to: install, update and uninstall. 
+
+PM2 runs itself as a user service. That means that if you install Krater Node as root, then only when logged in as root will you see the Krater Node process when querying PM2. On Windows it’s recommended to run Krater’s installers on Powershell with administrator rights. On Ubuntu/Debian, it’s recommended to run the scripts as a sudo privileged user but not as root.
+
+After installation, if the user ever needs to manage the PM2 instances they need to familiarize themselves with the operation of PM2.
+
+The basic commands to manage PM2 and the Krater Node instances are:
+
+
+`pm2 start pm2.config.js` - starts the Krater Node inside the installation folder in which its executed.
+
+`pm2 ls` - lists all pm2 processes running
+
+`pm2 restart {id}` - restarts the PM2 process with {id} obtained from pm2 ls.
+
+`pm2 sav` - saves the current state of processes and will restore them after reboot.
+
+`pm2 delete {id}` - will stop and delete the process from the list.
+
+`pm2 kill` - will delete all processes and kill pm2.
+
+`pm2 resurrect` - restores all the processes saved in the dump.pm2 file that’s collected with pm2 save.
+
+`pm2 startup` - enables the service on reboot and will restore all PM2 services saved by pm2 save after reboot.
+
+We hope this will make it easier to understand how to Krater Node works and will help you troubleshoot any issues encountered using Krater on your local equipment.

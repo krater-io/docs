@@ -23,19 +23,19 @@
   },
   "anchors": [
     {
-        "name": "Krater For Mining",
+        "name": "Mining",
         "icon": "pickaxe",
-        "url": "krater-mining"
+        "url": "mining"
     },
     {
-        "name": "Krater For Hosting",
+        "name": "Hosting",
         "icon": "warehouse",
-        "url": "krater-hosting"
+        "url": "hosting"
     },
     {
         "name": "Marketplace",
         "icon": "store",
-        "url": "krater-marketplace"
+        "url": "marketplace"
     }
 ],
   "tabs": [
@@ -45,21 +45,30 @@
     }
   ],
   "navigation": [
+    
     {
       "group": "Application",
       "pages": 
       [
-        {"group": "Dashboard", "pages": ["krater-hosting/dashboard/overview"]},
-        {"group": "Workers", "pages": ["krater-hosting/workers/add-workers"]},
-        "krater-hosting/locations",
-        "krater-hosting/customers",
-        {"group": "Krater Node", "pages": ["krater-hosting/krater-node/overview", "krater-hosting/krater-node/manage-krater-node"]},
-        "krater-hosting/financials",
-        "krater-hosting/energy-reports",
-        "krater-hosting/notifications",
-        "krater-hosting/curtailment",
-        "krater-hosting/sitemap",
-        "krater-hosting/settings"
+        {"group": "Dashboard", "pages": ["mining/dashboard/overview"]},
+        {"group": "Smart-Wallet", "pages": ["mining/smart-wallet/overview", "mining/smart-wallet/deploy"]}
+      ]
+    },
+    {
+      "group": "Application",
+      "pages": 
+      [
+        {"group": "Dashboard", "pages": ["hosting/dashboard/overview"]},
+        {"group": "Workers", "pages": ["hosting/workers/add-workers"]},
+        "hosting/locations",
+        "hosting/customers",
+        {"group": "Krater Node", "pages": ["hosting/node/overview", "hosting/node/manage-node"]},
+        "hosting/financials",
+        "hosting/energy-reports",
+        "hosting/notifications",
+        "hosting/curtailment",
+        "hosting/sitemap",
+        "hosting/settings"
       ]
     },
     {

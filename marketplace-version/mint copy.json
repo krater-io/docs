@@ -32,6 +32,11 @@
         "icon": "pickaxe",
         "url": "mining"
     }
+    /**{
+        "name": "Marketplace",
+        "icon": "store",
+        "url": "marketplace"
+    }**/
 ],
   "navigation": [
     
@@ -47,7 +52,7 @@
       "group": "Application",
       "pages": 
       [
-        {"group": "Dashboard", "pages": ["hosting/dashboard/overview", "hosting/dashboard/first-steps"]},
+        {"group": "Dashboard", "pages": ["hosting/dashboard/overview"]},
         {"group": "Smart-Wallet", "pages": ["hosting/smart-wallet/overview", "hosting/smart-wallet/deploy"]},
         {"group": "Workers", "pages": ["hosting/workers/add-workers"]},
         "hosting/locations",

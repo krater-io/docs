@@ -34,15 +34,6 @@
     }
 ],
   "navigation": [
-    
-    {
-      "group": "Application",
-      "pages": 
-      [
-        {"group": "Dashboard", "pages": ["mining/dashboard/overview"]},
-        {"group": "Smart-Wallet", "pages": ["mining/smart-wallet/overview", "mining/smart-wallet/deploy", "mining/smart-wallet/deposit-exchange"]}
-      ]
-    },
     {
       "group": "Application",
       "pages": 
@@ -60,7 +51,16 @@
         "hosting/sitemap",
         "hosting/settings"
       ]
+    },
+    {
+      "group": "Application",
+      "pages": 
+      [
+        {"group": "Dashboard", "pages": ["mining/dashboard/overview"]},
+        {"group": "Smart-Wallet", "pages": ["mining/smart-wallet/overview", "mining/smart-wallet/deploy", "mining/smart-wallet/deposit-exchange"]}
+      ]
     }
+    
   ],
   "footerSocials": {
     "website": "https://krater.io",

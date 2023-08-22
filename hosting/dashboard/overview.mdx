@@ -1,0 +1,40 @@
+---
+sidebarTitle: "Overview"
+title: "Dashboard Overview"
+---
+<Frame caption="Provider's Dashboard"><img height="200" src="https://github.com/krater-io/docs/blob/main/images/dashboard/dashboard-overview.webp?raw=true" /></Frame>
+The dashboard is a centralized hub providing essential information and functionalities related to mining operations. It offers key statistics, revenue, and profit metrics for hosting providers to facilitate informed decision-making processes.
+
+The hosting provider's dashboard comprises the following elements:
+
+**Dropdown Filters**
+	- *Algorithms:* Most proof-of-work algorithms are supported (e.g., SHA-256, Equihash, X11, Scrypt). Default value - all.
+	- *Location:* The desired location for displaying statistics. Default value - all.
+	- *Container:* Specific container within a location (applicable only if containers were added before). Default value - all.
+
+**Tabs**
+	- *Power:* Displays nominal and actual values for real-time energy consumption.
+	- *Hashrate:* Shows nominal and actual values for real-time hashrate.
+	- *Uptime:* Displays the workers' uptime.
+	- *Customers' Debt:* Indicates the amount of USDT owed by customers for hosting payments (Only applicable if invoicing feature is enabled).
+
+**Charts**
+	- *Models:* Demonstrates all added models along with their count.
+	- *Status:* Represents the status of all workers, which includes:
+		- *Working:* The worker is operating normally.
+		- *Underperforming:* The worker's performance is below expected parameters.
+		- *Stopped:* The worker has ceased operation.
+		- *Needs Repair/Broken:* The worker is damaged or malfunctioning, requiring maintenance.
+		- *In Maintenance:* The worker is currently undergoing repairs or maintenance.
+	- *Recent Notifications:* Presents all recent notifications from workers like temperature variations, hashboards status, pool changes, worker status updates.
+
+**Statistics**
+	- *Power:* Chart showing detailed energy consumption for the last 24 hours. Includes minimum, average, and maximum values.
+	- *Hashrate:* Chart depicting the computational power for mining cryptocurrency over the past 24 hours. It includes minimum, average, and maximum hashrate values.
+	- *Temperature:* Shows temperature variations over the last 24 hours, including minimum, average, and maximum values.
+
+**Krater Nodes**
+	- *Node name:* This is a user-input field for node identification.
+	- *Version:* This reflects the software version for each node.
+	- *Status:* Shows whether the node is online or offline.
+	- *Last Online:* This timestamp records the most recent instance data was received from the node.

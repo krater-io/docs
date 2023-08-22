@@ -38,7 +38,7 @@
       "group": "Application",
       "pages": 
       [
-        {"group": "Dashboard", "pages": ["hosting/dashboard/first-steps"]},
+        {"group": "Dashboard", "pages": ["hosting/dashboard/overview","hosting/dashboard/first-steps"]},
         {"group": "Smart-Wallet", "pages": ["hosting/smart-wallet/overview", "hosting/smart-wallet/deploy"]},
         {"group": "Workers", "pages": ["hosting/workers/add-workers"]},
         "hosting/locations",

@@ -56,7 +56,6 @@
       "group": "Application",
       "pages": 
       [
-        {"group": "Dashboard", "pages": ["mining/dashboard/overview"]},
         {"group": "Smart-Wallet", "pages": ["mining/smart-wallet/overview", "mining/smart-wallet/deploy", "mining/smart-wallet/deposit-exchange"]}
       ]
     }

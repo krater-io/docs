@@ -47,7 +47,7 @@
         "hosting/financials",
         "hosting/energy-reports",
         "hosting/notifications",
-        "hosting/curtailment",
+        {"group": "Curtailment", "pages": ["hosting/curtailment/overview"]},
         "hosting/sitemap",
         "hosting/settings"
       ]

@@ -45,7 +45,7 @@
         "hosting/customers",
         {"group": "Krater Node", "pages": ["hosting/krater-node/overview", "hosting/krater-node/manage-node"]},
         "hosting/financials",
-        "hosting/energy-reports",
+        {"group": "Energy Reports", "pages": ["hosting/energy-reports/overview"]},
         "hosting/notifications",
         {"group": "Curtailment", "pages": ["hosting/curtailment/overview"]},
         {"group": "Sitemap", "pages": ["hosting/sitemap/overview"]},

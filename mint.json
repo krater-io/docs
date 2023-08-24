@@ -48,7 +48,7 @@
         "hosting/energy-reports",
         "hosting/notifications",
         {"group": "Curtailment", "pages": ["hosting/curtailment/overview"]},
-        "hosting/sitemap",
+        {"group": "Sitemap", "pages": ["hosting/sitemap/overview"]},
         "hosting/settings"
       ]
     },

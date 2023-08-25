@@ -42,7 +42,7 @@
         {"group": "Smart-Wallet", "pages": ["hosting/smart-wallet/overview", "hosting/smart-wallet/deploy"]},
         {"group": "Workers", "pages": ["hosting/workers/about-workers", "hosting/workers/add-workers", "hosting/workers/bulk-actions"]},
         {"group": "Locations", "pages": ["hosting/locations/locations"]},
-        "hosting/customers",
+        {"group": "Customers", "pages": ["hosting/customers/price-tiers"]},
         {"group": "Krater Node", "pages": ["hosting/krater-node/overview", "hosting/krater-node/manage-node"]},
         "hosting/financials",
         {"group": "Energy Reports", "pages": ["hosting/energy-reports/overview"]},

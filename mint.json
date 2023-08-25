@@ -40,7 +40,7 @@
       [
         {"group": "Dashboard", "pages": ["hosting/dashboard/overview", "hosting/dashboard/first-steps"]},
         {"group": "Smart-Wallet", "pages": ["hosting/smart-wallet/overview", "hosting/smart-wallet/deploy"]},
-        {"group": "Workers", "pages": ["hosting/workers/about-workers", "hosting/workers/add-workers"]},
+        {"group": "Workers", "pages": ["hosting/workers/about-workers", "hosting/workers/add-workers", "hosting/workers/bulk-actions"]},
         {"group": "Locations", "pages": ["hosting/locations/locations"]},
         "hosting/customers",
         {"group": "Krater Node", "pages": ["hosting/krater-node/overview", "hosting/krater-node/manage-node"]},

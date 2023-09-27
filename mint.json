@@ -43,7 +43,7 @@
         {"group": "Workers", "pages": ["hosting/workers/about-workers", "hosting/workers/add-workers", "hosting/workers/bulk-actions"]},
         {"group": "Locations", "pages": ["hosting/locations/locations"]},
         {"group": "Customers", "pages": ["hosting/customers/price-tiers"]},
-        {"group": "Krater Node", "pages": ["hosting/krater-node/overview", "hosting/krater-node/manage-node"]},
+        {"group": "Krater Node", "pages": ["hosting/krater-node/overview", "hosting/krater-node/manage-node", "hosting/krater-node/install-windows"]},
         "hosting/financials",
         {"group": "Energy Reports", "pages": ["hosting/energy-reports/overview"]},
         "hosting/notifications",

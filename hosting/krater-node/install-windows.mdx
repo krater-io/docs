@@ -1,0 +1,27 @@
+---
+sidebarTitle: "Install on Windows"
+title: "Installation On Windows"
+---
+Currently, the installation process for Windows involves the following steps:
+
+1. Once you have successfully created a Location, you can proceed to download the Krater Node installer file.
+
+2. Navigate to the Start Menu, search for 'Powershell', right-click on it and choose 'Run as Administrator'.
+
+3. Inside Powershell, use the "cd [YourPath]" command to navigate to the location of your downloaded installer file. Replace [YourPath] with the actual path where your installer is located.
+
+4. Type in the 'Set-ExecutionPolicy unrestricted' command to permit the script to run, then press enter.
+
+5. Run the installer script by typing '.\install.ps1' and then press enter. 
+
+6. Upon encountering a security warning, type “r” for “Run once” and press enter.
+
+7. A disclaimer and terms of service may appear. If you agree, type “y” to accept and proceed.
+
+8. When prompted, select a directory to install Krater Node. Importantly, the chosen folder should NOT be inside the “Users” directory. For instance, avoid places like C:\Users\Desktop or other subfolders within “Users”.
+
+9. Lastly, the system will request your Krater Node ID. Input this ID from your Krater Node dashboard and press enter to link the installed software with the backend.
+
+Once you've successfully completed these steps, the Krater Node should be up and running on your Windows machine. It's designed to automatically restart, even if your server goes down and comes back up, thus ensuring continuity.
+
+Note: Given the way Windows handles scripts, if you encounter an error during or after the installation, don't hesitate to reach out to us for assistance.

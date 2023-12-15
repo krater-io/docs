@@ -1,8 +1,8 @@
 ---
-sidebarTitle: "Manage Krater Node"
-title: "Manage Krater Node"
+sidebarTitle: "Managing Krater Node"
+title: "Managing Krater Node"
 ---
-**Krater Node** is a program written in TS that serves as an interface between Krater’s backend and the Miners running inside a Data Center. Krater Node runs as a service managed by [PM2](http://pm2.io). The documentation for PM2 can be found [here](https://pm2.io/docs/runtime/overview/). 
+**Krater Node** is a NodeJS application that serves as an interface between Krater’s backend and the Miners running inside a Data Center. Krater Node runs as a service managed by [PM2](http://pm2.io). The documentation for PM2 can be found [here](https://pm2.io/docs/runtime/overview/). 
 Krater Node’s installer is made in a way that the user should not need to manage PM2 themselves. Krater provides scripts to: install, update and uninstall. 
 
 PM2 runs itself as a user service. That means that if you install Krater Node as root, then only when logged in as root will you see the Krater Node process when querying PM2. On Windows it’s recommended to run Krater’s installers on Powershell with administrator rights. On Ubuntu/Debian, it’s recommended to run the scripts as a sudo privileged user but not as root.

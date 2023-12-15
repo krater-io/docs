@@ -18,17 +18,17 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Krater Dashboard",
     "url": "https://app.krater.io"
   },
   "anchors": [
     {
-      "name": "Hosting",
+      "name": "For Hosting",
       "icon": "warehouse",
       "url": "hosting"
     },
     {
-        "name": "Mining",
+        "name": "For Mining",
         "icon": "pickaxe",
         "url": "mining"
     }

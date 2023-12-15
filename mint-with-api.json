@@ -63,7 +63,7 @@
         {"group": "Workers", "pages": ["hosting/workers/add-workers"]},
         "hosting/locations",
         "hosting/customers",
-        {"group": "Krater Node", "pages": ["hosting/krater-node/overview", "hosting/krater-node/manage-node"]},
+        {"group": "Krater Node", "pages": ["hosting/krater-node/overview", "hosting/krater-node/managing-node"]},
         "hosting/financials",
         "hosting/energy-reports",
         "hosting/notifications",

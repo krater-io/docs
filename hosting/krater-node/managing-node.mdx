@@ -16,12 +16,12 @@ The basic commands to manage PM2 and the Krater Node instances are:
 
 `pm2 list` - lists all pm2 processes running.
 
-`pm2 restart {id}` - restarts the PM2 process with {id} obtained from 'pm2 list'. Use without the curly brackets. {id} is an integer. Use the id obtained from 'pm2 list'.
+`pm2 restart [id]` - restarts the PM2 process with [id] obtained from 'pm2 list'. Use without the curly brackets. [id] is an integer. Use the id obtained from 'pm2 list'.
 
 
 `pm2 save` - saves the current state of processes and will restore them after reboot.
 
-`pm2 delete {id}` - will stop and delete the process from 'pm2 list'. Use without the curly brackets. {id} is an integer. Use the id obtained from 'pm2 list'.
+`pm2 delete [id]` - will stop and delete the process from 'pm2 list'. Use without the curly brackets. [id] is an integer. Use the id obtained from 'pm2 list'.
 
 `pm2 kill` - will delete all processes and kill pm2.
 
@@ -29,6 +29,6 @@ The basic commands to manage PM2 and the Krater Node instances are:
 
 `pm2 startup` - enables the service on reboot and will restore all PM2 services saved by pm2 save after reboot.
 
-`pm2 logs --lines {numberOfLines} {id}` selects a number of last lines of the logs you want to see and the ID of the PM2 instance you want to see the logs from. It will tail the output of the logs of that process to the terminal.
+`pm2 logs --lines [numberOfLines] [id]` selects a number of last lines of the logs you want to see and the ID of the PM2 instance you want to see the logs from. It will tail the output of the logs of that process to the terminal.
 
 We hope this will make it easier to understand how to Krater Node works and will help you troubleshoot any issues encountered using Krater on your local equipment.
